@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.icon{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.icon img{
+    width: 44px;
+    padding: 0 8px;
+    border-radius: 13px;
+}
+
+
+.bottom{
+    background-color: black;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    height: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#rg{
+    width: 80vw;
+    cursor: pointer;
+}
+.picons{
+    padding: 30px;
+    cursor: pointer;
+}
+
+.gif{
+    position: absolute;
+    left: 0;
+    margin-left: 13vh;
+}
+.gif img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    background-image: url(../assets/icon/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 13px;
+}
+
+.songList{
+    width: 55%;
+    margin-left: 35px;
+    padding-top: 40px;
+}
+
+.songItems{
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.songItems img{
+    width: 45px;
+    border-radius: 8px;
+    margin: 0 23px ;
+}
+
+.play{
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.songItems.active{
+    background-color: #1db954; 
+    color: white;
+}
+
+
+
