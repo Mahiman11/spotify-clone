@@ -18,3 +18,6 @@ A simple Spotify-like music player built using HTML, CSS, and JavaScript.
 - DOM Manipulation
 - JavaScript Events
 - Audio API
+
+## 🔗 Live Demo
+👉 https://mahiman11.github.io/spotify-clone/
